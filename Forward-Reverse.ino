@@ -28,9 +28,6 @@ void loop()
     analogWrite(6, 0);
   }
   else{
-    //if(speed < 0){
-      //speed += 256;
-    //}
     speed = speed * -1;
     analogWrite(6, speed);
     analogWrite(9, 0);
